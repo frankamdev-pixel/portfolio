@@ -20,6 +20,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-parallax-tilt": "^1.7.289",
+    "react-responsive": "^10.0.1",
     "react-router-dom": "^6.8.1",
     "react-vertical-timeline-component": "^3.6.0",
     "react-window": "^1.8.11",
