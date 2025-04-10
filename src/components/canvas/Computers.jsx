@@ -84,17 +84,19 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import { useMediaQuery } from "react-responsive";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const { scene } = useGLTF("./desktop_pc/scene.gltf");
+
+  if (!scene) {
+    console.error("Le modèle 3D n'a pas pu être chargé");
+    return null;
+  }
 
   return (
     <mesh>
-      {/* Lumière principale */}
       <hemisphereLight intensity={0.5} groundColor="black" />
       <directionalLight position={[3, 5, 2]} intensity={1} castShadow />
-
-      {/* Modèle 3D */}
       <primitive
-        object={computer.scene}
+        object={scene}
         scale={isMobile ? 0.5 : 0.75}
         position={isMobile ? [0, -2, -1.5] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
@@ -117,13 +119,10 @@ const ComputersCanvas = () => {
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
+      style={{ height: "100vh", width: "100%" }}  // Ajout de styles CSS pour assurer une taille complète du Canvas
     >
-      <Suspense fallback={null}>
-        <OrbitControls
-          enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
-        />
+      <Suspense fallback={<div>Chargement...</div>}>
+        <OrbitControls enableZoom={false} maxPolarAngle={Math.PI / 2} minPolarAngle={Math.PI / 2} />
         <Computers isMobile={isMobile} />
       </Suspense>
       <Preload all />
