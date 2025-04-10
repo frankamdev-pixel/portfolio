@@ -1,17 +1,23 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 
-import { styles } from "../styles"; // Import des styles
-import { services } from "../constants"; // Import des services à afficher
-import { SectionWrapper } from "../hoc"; // HOC (Composant Ordinaire de Haut Niveau) pour wrapper la section
-import { fadeIn, textVariant } from "../utils/motion"; // Fonctions d'animation
+import { styles } from "../styles"; 
+import { services } from "../constants";
+import { SectionWrapper } from "../hoc"; 
+import { fadeIn, textVariant } from "../utils/motion"; 
 
 // Composant pour afficher chaque service
 const ServiceCard = ({ index, title, icon }) => (
-  <Tilt className='xs:w-[250px] w-full'>
+  <Tilt
+    tiltMaxAngleX={45} 
+    tiltMaxAngleY={45} 
+    scale={1} 
+    transitionSpeed={450} 
+    className="xs:w-[250px] w-full"
+  >
     <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)} // Animation pour l'apparition du service
+      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
     >
       <div
@@ -33,7 +39,7 @@ const ServiceCard = ({ index, title, icon }) => (
         </h3>
       </div>
     </motion.div>
-  </Tilt>
+   </Tilt>
 );
 
 const About = () => {
