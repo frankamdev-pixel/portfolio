@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Développeur React Native",
+    title: "Développeur ReactJS",
     icon: mobile,
   },
   {
@@ -117,7 +117,7 @@ const technologies = [
 const experiences = [
   {
     title: "Développeur React.js",
-    company_name: "Starbucks",
+    company_name: "Ecole Superieure La canadienne",
     icon: starbucks,
     iconBg: "#383E56",
     date: "Mars 2020 - Avril 2021",
@@ -130,7 +130,7 @@ const experiences = [
   },
   {
     title: "Développeur React Native",
-    company_name: "Tesla",
+    company_name: "Ecole Superieure La canadienne",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Janvier 2021 - Février 2022",
@@ -143,7 +143,7 @@ const experiences = [
   },
   {
     title: "Développeur Web",
-    company_name: "Shopify",
+    company_name: "Ecole Superieure La canadienne",
     icon: shopify,
     iconBg: "#383E56",
     date: "Janvier 2022 - Janvier 2023",
@@ -155,8 +155,8 @@ const experiences = [
     ],
   },
   {
-    title: "Développeur Full Stack",
-    company_name: "Meta",
+    title: "Développeur Front-End",
+    company_name: "Ecole Superieure La canadienne",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Janvier 2023 - Présent",
@@ -176,7 +176,7 @@ const testimonials = [
     name: "Sara Lee",
     designation: "Directrice financière",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
@@ -188,11 +188,11 @@ const testimonials = [
   },
   {
     testimonial:
-      "Après l'optimisation de notre site web par Rick, notre trafic a augmenté de 50 %. Nous ne le remercierons jamais assez !",
-    name: "Lisa Wang",
+      "Après l'optimisation de notre site web par Frank, notre trafic a augmenté de 50 %. Nous ne le remercierons jamais assez !",
+    name: "Jodel Kamdem",
     designation: "Directrice technique",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
 
@@ -207,7 +207,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "laravel",
         color: "green-text-gradient",
       },
       {
@@ -219,16 +219,16 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Omiie Technologies",
     description:
-      "Application web permettant aux utilisateurs de rechercher des offres d'emploi, de consulter les fourchettes de salaires estimées pour les postes et de localiser les emplois disponibles en fonction de leur emplacement actuel.",
+      "Application web permettant aux utilisateurs d'acheter du materiel électronique, de consulter les fourchettes de prix estimées pour les postes et de vente et de la maintenance.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwindCSS",
         color: "green-text-gradient",
       },
       {
@@ -237,7 +237,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.omiie.devfack.com/",
   },
   {
     name: "Guide de Voyage",
@@ -245,11 +245,11 @@ const projects = [
       "Une plateforme de réservation de voyages complète permettant aux utilisateurs de réserver des vols, des hôtels et des voitures de location, et offrant des recommandations personnalisées pour les destinations populaires.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "laravel",
         color: "green-text-gradient",
       },
       {
