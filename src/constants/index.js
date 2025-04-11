@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  // laravel2,
 } from "../assets";
 
 export const navLinks = [
@@ -94,7 +95,7 @@ const technologies = [
   },
   {
     name: "MongoDB",
-    icon: mongodb,
+    icon: javascript,
   },
   {
     name: "Three JS",
@@ -173,26 +174,26 @@ const testimonials = [
   {
     testimonial:
       "Je pensais qu'il était impossible de créer un site aussi beau que notre produit, mais Rick m'a prouvé le contraire.",
-    name: "Sara Lee",
+    name: "Audrey Lea",
     designation: "Directrice financière",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/men/4.jpg",
+    // image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
       "Je n'ai jamais rencontré un développeur web qui se soucie autant du succès de ses clients que Rick.",
-    name: "Chris Brown",
+    name: "Boris WAFFO",
     designation: "Directeur des opérations",
     company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    // image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "Après l'optimisation de notre site web par Frank, notre trafic a augmenté de 50 %. Nous ne le remercierons jamais assez !",
-    name: "Jodel Kamdem",
+    name: "Jodelle Kamdem",
     designation: "Directrice technique",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/men/6.jpg",
+    // image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
 
@@ -216,7 +217,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Frankam487",
   },
   {
     name: "Omiie Technologies",
@@ -258,7 +259,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Frankam487",
   },
 ];
 
