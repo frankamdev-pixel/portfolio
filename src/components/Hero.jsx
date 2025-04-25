@@ -27,7 +27,7 @@ const Hero = () => {
 
       <div className="absolute mt-4 bottom-0 w-full h-[100%] sm:h-[70%]">
         {/* <ComputersCanvas /> */}
-        <h1>ok Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis tempora molestiae amet nesciunt quasi iure aut quos voluptatem dolores quas!</h1>
+       
       </div>
 
       <div className="absolute xs:bottom-8 bottom-24 w-full flex justify-center items-center">
