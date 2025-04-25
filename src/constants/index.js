@@ -238,15 +238,15 @@ const testimonials = [
       "Je pensais qu'il était impossible de créer un site aussi beau que notre produit, mais Rick m'a prouvé le contraire.",
     name: "Audrey Lea",
     designation: "Directrice financière",
-    company: "Acme Co",
-    // image: "https://randomuser.me/api/portraits/men/4.jpg",
+    company: "Omiie solutions",
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
   },
   {
     testimonial:
       "Je n'ai jamais rencontré un développeur web qui se soucie autant du succès de ses clients que Rick.",
     name: "Boris WAFFO",
     designation: "Directeur des opérations",
-    company: "DEF Corp",
+    company: "CFPC",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
@@ -255,7 +255,7 @@ const testimonials = [
     name: "Jodelle Kamdem",
     designation: "Directrice technique",
     company: "456 Enterprises",
-    // image: "https://randomuser.me/api/portraits/men/6.jpg",
+    image: "https://randomuser.me/api/portraits/men/6.jpg",
   },
 ];
 
@@ -303,7 +303,7 @@ const projects = [
     source_code_link: "https://www.omiie.devfack.com/",
   },
   {
-    name: "Guide de Voyage",
+    name: "Projets Javascript",
     description:
       "Une plateforme de réservation de voyages complète permettant aux utilisateurs de réserver des vols, des hôtels et des voitures de location, et offrant des recommandations personnalisées pour les destinations populaires.",
     tags: [
@@ -320,7 +320,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: "../assets/company/tripguide.png",
+    // image: javascript,
     source_code_link: "https://github.com/Frankam487",
   },
 ];

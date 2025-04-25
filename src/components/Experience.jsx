@@ -2,17 +2,16 @@ import React from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
-} from "react-vertical-timeline-component"; // Importation des composants pour la timeline verticale
-import { motion } from "framer-motion"; // Importation de la bibliothèque d'animation
+} from "react-vertical-timeline-component"; 
+import { motion } from "framer-motion";
 
-import "react-vertical-timeline-component/style.min.css"; // Importation des styles pour la timeline
+import "react-vertical-timeline-component/style.min.css"; 
 
-import { styles } from "../styles"; // Importation des styles personnalisés
-import { experiences } from "../constants"; // Importation des expériences professionnelles
-import { SectionWrapper } from "../hoc"; // HOC pour wrapper la section
-import { textVariant } from "../utils/motion"; // Fonction d'animation pour les textes
+import { styles } from "../styles"; 
+import { experiences } from "../constants"; 
+import { SectionWrapper } from "../hoc";
+import { textVariant } from "../utils/motion"; 
 
-// Composant pour chaque carte d'expérience
 const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
@@ -23,7 +22,7 @@ const ExperienceCard = ({ experience }) => {
       contentArrowStyle={{ borderRight: "7px solid  #232631" }} // Style de la flèche de l'élément
       date={experience.date} // Date de l'expérience
       iconStyle={{ background: experience.iconBg }} // Style de l'icône (couleur de fond)
-      icon={ // Icône de l'expérience
+      icon={ 
         <div className='flex justify-center items-center w-full h-full'>
           <img
             src={experience.icon} // Icône de l'entreprise ou du projet
@@ -40,14 +39,14 @@ const ExperienceCard = ({ experience }) => {
         </p>
       </div>
 
-      {/* Liste des points clés de l'expérience */}
+
       <ul className='mt-5 list-disc ml-5 space-y-2'>
         {experience.points.map((point, index) => (
           <li
-            key={`experience-point-${index}`} // Clé unique pour chaque point
+            key={`experience-point-${index}`}
             className='text-white-100 text-[14px] pl-1 tracking-wider'
           >
-            {point} {/* Affichage de chaque point de l'expérience */}
+            {point} 
           </li>
         ))}
       </ul>
@@ -55,7 +54,7 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-// Composant principal pour afficher toutes les expériences professionnelles
+
 const Experience = () => {
   return (
     <>
