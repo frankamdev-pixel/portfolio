@@ -235,27 +235,31 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Je pensais qu'il était impossible de créer un site aussi beau que notre produit, mais Rick m'a prouvé le contraire.",
-    name: "Audrey Lea",
-    designation: "Directrice financière",
+      "Je pensais qu'il était impossible de créer un site aussi beau que notre produit, mais Frank m'a prouvé le contraire.",
+    name: "Frank Kamgang",
+    designation: "Directeur General",
     company: "Omiie solutions",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    // image: "https://randomuser.me/api/portraits/men/1.jpg",
+    image: "../../public/me.jpg",
   },
   {
     testimonial:
-      "Je n'ai jamais rencontré un développeur web qui se soucie autant du succès de ses clients que Rick.",
-    name: "Boris WAFFO",
+    "Je n'ai jamais rencontré un développeur web qui se soucie autant du succès de ses clients que Frank.",
+    name: "Herman WAFFO",
     designation: "Directeur des opérations",
-    company: "CFPC",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    company: "S.A.B.C",
+    // image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "../../public/ball.jpg",
+    
   },
   {
     testimonial:
-      "Après l'optimisation de notre site web par Frank, notre trafic a augmenté de 50 %. Nous ne le remercierons jamais assez !",
+    "Après l'optimisation de notre site web par Frank, notre trafic a augmenté de 50 %. Nous ne le remercierons jamais assez !",
     name: "Jodelle Kamdem",
     designation: "Directrice technique",
     company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/men/6.jpg",
+    // image: "https://randomuser.me/api/portraits/men/6.jpg",
+    image: "../../public/daughter.jpg",
   },
 ];
 
@@ -299,7 +303,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: "../../public/omi.jpg",
+    // image: jobit,
     source_code_link: "https://www.omiie.devfack.com/",
   },
   {
@@ -312,15 +317,15 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "laravel",
+        name: "typescript",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: "../assets/company/tripguide.png",
+    image: "../../public/js.png",
     // image: javascript,
     source_code_link: "https://github.com/Frankam487",
   },
