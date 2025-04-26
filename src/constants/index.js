@@ -240,7 +240,7 @@ const testimonials = [
     designation: "Directeur General",
     company: "Omiie solutions",
     // image: "https://randomuser.me/api/portraits/men/1.jpg",
-    image: "../../public/me.jpg",
+    image: "./me.jpg",
   },
   {
     testimonial:
