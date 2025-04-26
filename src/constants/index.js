@@ -116,59 +116,6 @@ const technologies = [
 ];
 
 
-//   {
-//     title: "Développeur React.js",
-//     company_name: "Ecole Superieure La canadienne",
-//     icon: starbucks,
-//     iconBg: "#383E56",
-//     date: "Mars 2020 - Avril 2021",
-//     points: [
-//       "Développement et maintenance des applications web en utilisant React.js et d'autres technologies associées.",
-//       "Collaboration avec des équipes transverses, y compris les designers, les chefs de produits et les autres développeurs pour créer des produits de haute qualité.",
-//       "Mise en œuvre de design responsive et garantie de la compatibilité entre les navigateurs.",
-//       "Participation aux revues de code et fourniture de retours constructifs aux autres développeurs.",
-//     ],
-//   },
-//   {
-//     title: "Développeur Javascript",
-//     company_name: "Ecole Superieure La canadienne",
-//     icon: tesla,
-//     iconBg: "#E6DEDD",
-//     date: "Janvier 2021 - Février 2022",
-//     points: [
-//       "Développement et maintenance des applications web en utilisant React.js et d'autres technologies associées.",
-//       "Collaboration avec des équipes transverses, y compris les designers, les chefs de produits et les autres développeurs pour créer des produits de haute qualité.",
-//       "Mise en œuvre de design responsive et garantie de la compatibilité entre les navigateurs.",
-//       "Participation aux revues de code et fourniture de retours constructifs aux autres développeurs.",
-//     ],
-//   },
-//   {
-//     title: "Développeur Web",
-//     company_name: "Ecole Superieure La canadienne",
-//     icon: shopify,
-//     iconBg: "#383E56",
-//     date: "Janvier 2022 - Janvier 2023",
-//     points: [
-//       "Développement et maintenance des applications web en utilisant React.js et d'autres technologies associées.",
-//       "Collaboration avec des équipes transverses, y compris les designers, les chefs de produits et les autres développeurs pour créer des produits de haute qualité.",
-//       "Mise en œuvre de design responsive et garantie de la compatibilité entre les navigateurs.",
-//       "Participation aux revues de code et fourniture de retours constructifs aux autres développeurs.",
-//     ],
-//   },
-//   {
-//     title: "Développeur Front-End",
-//     company_name: "Ecole Superieure La canadienne",
-//     icon: meta,
-//     iconBg: "#E6DEDD",
-//     date: "Janvier 2023 - Présent",
-//     points: [
-//       "Développement et maintenance des applications web en utilisant React.js et d'autres technologies associées.",
-//       "Collaboration avec des équipes transverses, y compris les designers, les chefs de produits et les autres développeurs pour créer des produits de haute qualité.",
-//       "Mise en œuvre de design responsive et garantie de la compatibilité entre les navigateurs.",
-//       "Participation aux revues de code et fourniture de retours constructifs aux autres développeurs.",
-//     ],
-//   },
-// ];
 const experiences = [
   {
     title: "Développeur React.js",
@@ -177,7 +124,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "Mars 2020 - Avril 2021",
     technologies: ["React.js", "JavaScript", "CSS"],
-    location: "Montréal, Canada", // À ajuster selon la réalité
+    location: "Cameroun, Bafoussam",
     points: [
       "Conception et développement d'interfaces utilisateur dynamiques avec React.js, en intégrant des composants réutilisables.",
       "Collaboration avec les designers pour transformer des maquettes Figma en applications responsives.",
@@ -249,7 +196,7 @@ const testimonials = [
     designation: "Directeur des opérations",
     company: "S.A.B.C",
     // image: "https://randomuser.me/api/portraits/men/5.jpg",
-    image: "../../public/ball.jpg",
+    image: "./ball.jpg",
     
   },
   {
@@ -259,7 +206,7 @@ const testimonials = [
     designation: "Directrice technique",
     company: "456 Enterprises",
     // image: "https://randomuser.me/api/portraits/men/6.jpg",
-    image: "../../public/daughter.jpg",
+    image: "./daughter.jpg",
   },
 ];
 
@@ -303,7 +250,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "../../public/omi.jpg",
+    image: "./omi.jpg",
     // image: jobit,
     source_code_link: "https://www.omiie.devfack.com/",
   },
@@ -325,7 +272,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "../../public/js.png",
+    image: "./js.png",
     // image: javascript,
     source_code_link: "https://github.com/Frankam487",
   },
