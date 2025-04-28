@@ -252,7 +252,7 @@ const projects = [
     ],
     image: "./omi.jpg",
     // image: jobit,
-    source_code_link: "omiie.devfack.com/",
+    source_code_link: "omiie.devfack.com",
   },
   {
     name: "Projets Javascript",
