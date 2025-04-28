@@ -5,7 +5,7 @@ import {
   web,
   javascript,
   typescript,
-  
+  html,
   css,
   reactjs,
   redux,
@@ -24,7 +24,6 @@ import {
   tripguide,
   threejs,
 } from "../assets";
-import html1 from "../assets/company/meta.png";
 
 export const navLinks = [
   { id: "about", title: "À propos" },
@@ -40,7 +39,7 @@ const services = [
 ];
 
 const technologies = [
-  { name: "HTML5", icon: html1},
+  { name: "HTML5", icon: html},
   { name: "CSS3", icon: css },
   { name: "JavaScript", icon: javascript },
   { name: "TypeScript", icon: typescript },
@@ -48,7 +47,7 @@ const technologies = [
   { name: "Redux Toolkit", icon: redux },
   { name: "Tailwind CSS", icon: tailwind },
   { name: "Node.js", icon: nodejs },
-  { name: "MongoDB", icon: mongodb }, // Correction ici
+  { name: "MongoDB", icon: mongodb },
   { name: "Three.js", icon: threejs },
   { name: "Git", icon: git },
   { name: "Figma", icon: figma },
@@ -125,7 +124,7 @@ const testimonials = [
     name: "Frank Kamgang",
     designation: "Directeur Général",
     company: "Omiie Solutions",
-    image: "/me.jpg", 
+    image: "/me.jpg",
   },
   {
     testimonial:
@@ -185,3 +184,4 @@ const projects = [
 ];
 
 export { services, technologies, experiences, testimonials, projects };
+
