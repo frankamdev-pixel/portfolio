@@ -24,7 +24,7 @@ import {
   tripguide,
   threejs,
 } from "../assets";
-import html1 from "../assets/tech/html.png";
+import html1 from "./html.png";
 
 export const navLinks = [
   { id: "about", title: "À propos" },
