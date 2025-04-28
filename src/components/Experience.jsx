@@ -16,7 +16,7 @@ const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "#1d1836", // Couleur de fond de l'élément de la timeline
+        background: "#1d1836", 
         color: "#fff", // Couleur du texte
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }} // Style de la flèche de l'élément
@@ -69,11 +69,11 @@ const Experience = () => {
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
-          {/* Boucle à travers toutes les expériences et affichage de chaque carte d'expérience */}
+          
           {experiences.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}
-              experience={experience} // Passage des données de l'expérience à chaque carte
+              experience={experience} 
             />
           ))}
         </VerticalTimeline>
