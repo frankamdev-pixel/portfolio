@@ -5,7 +5,7 @@ import {
   web,
   javascript,
   typescript,
-  html,
+  
   css,
   reactjs,
   redux,
@@ -24,7 +24,7 @@ import {
   tripguide,
   threejs,
 } from "../assets";
-import html1 from "./html.png";
+import html1 from "../assets/company/meta.png";
 
 export const navLinks = [
   { id: "about", title: "À propos" },
@@ -40,7 +40,7 @@ const services = [
 ];
 
 const technologies = [
-  { name: "HTML5", icon: html1 },
+  { name: "HTML5", icon: html1},
   { name: "CSS3", icon: css },
   { name: "JavaScript", icon: javascript },
   { name: "TypeScript", icon: typescript },
