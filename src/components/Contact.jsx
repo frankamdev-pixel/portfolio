@@ -56,7 +56,7 @@ const Contact = () => {
   };
 
   return (
-    <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
+    <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden `}>
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
@@ -77,7 +77,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="Quel est votre prénom ?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white  outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -88,18 +88,19 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="Quel est votre adresse email ?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Votre Message</span>
             <textarea
+              style={{ resize: "none" }}
               rows={7}
               name='message'
               value={form.message}
               onChange={handleChange}
               placeholder="Que souhaitez-vous dire ?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 shadow-md placeholder:text-secondary text-white outline-none border-none font-medium'
             />
           </label>
           <button
