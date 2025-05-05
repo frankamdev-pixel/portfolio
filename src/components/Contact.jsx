@@ -63,7 +63,8 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Contactez-nous</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
-
+        <div className="w-full max-w-[500px] mx-auto">
+          
         <form
           ref={formRef}
           onSubmit={handleSubmit}
@@ -77,7 +78,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="Quel est votre prénom ?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white  outline-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary w-full text-white  outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -88,7 +89,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="Quel est votre adresse email ?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white outline-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary w-full text-white outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -100,7 +101,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="Que souhaitez-vous dire ?"
-              className='bg-tertiary py-4 px-6 shadow-md placeholder:text-secondary text-white outline-none border-none font-medium'
+              className='bg-tertiary w-full py-4 px-6 shadow-md placeholder:text-secondary text-white outline-none border-none font-medium'
             />
           </label>
           <button
@@ -110,6 +111,7 @@ const Contact = () => {
             {loading ? "Envoi..." : "Envoyer"}
           </button>
         </form>
+            </div>
       </motion.div>
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}

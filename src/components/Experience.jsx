@@ -25,8 +25,8 @@ const ExperienceCard = ({ experience }) => {
       icon={ 
         <div className='flex justify-center items-center w-full h-full'>
           <img
-            src={experience.icon} // Icône de l'entreprise ou du projet
-            alt={experience.company_name} // Texte alternatif pour l'icône
+            src={experience.icon} 
+            alt={experience.company_name} 
             className='w-[60%] h-[60%] object-contain'
           />
         </div>
@@ -82,5 +82,5 @@ const Experience = () => {
   );
 };
 
-// SectionWrapper est un HOC qui ajoute un style ou une fonctionnalité supplémentaire à la section 'Experience'
+
 export default SectionWrapper(Experience, "work");
