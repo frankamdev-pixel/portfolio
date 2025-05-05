@@ -39,14 +39,14 @@ const services = [
 ];
 
 const technologies = [
-  { name: "HTML5", icon: html},
-  { name: "CSS3", icon: css },
-  { name: "JavaScript", icon: javascript },
-  { name: "TypeScript", icon: typescript },
-  { name: "ReactJS", icon: reactjs },
-  { name: "Redux Toolkit", icon: redux },
-  { name: "Tailwind CSS", icon: tailwind },
-  { name: "Node.js", icon: nodejs },
+  // { name: "HTML5", icon: html},
+  // { name: "CSS3", icon: css },
+  // { name: "JavaScript", icon: javascript },
+  // { name: "TypeScript", icon: typescript },
+  // { name: "ReactJS", icon: reactjs },
+  // { name: "Redux Toolkit", icon: redux },
+  // { name: "Tailwind CSS", icon: tailwind },
+  // { name: "Node.js", icon: nodejs },
   { name: "MongoDB", icon: mongodb },
   { name: "Three.js", icon: threejs },
   { name: "Git", icon: git },
