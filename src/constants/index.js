@@ -172,7 +172,7 @@ const projects = [
   {
     name: "Projets JavaScript",
     description:
-      "Plateforme de réservation de voyages, permettant de réserver vols, hôtels et voitures, avec recommandations personnalisées.",
+      "Projets personnels (Jeux applications, sites web, etc.) développé en javascript sur GitHub, démontrant mes compétences dans ce domaine.",
     tags: [
       { name: "reactjs", color: "blue-text-gradient" },
       { name: "typescript", color: "green-text-gradient" },
