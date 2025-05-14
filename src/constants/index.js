@@ -24,7 +24,7 @@ import {
   // tripguide,
   threejs,
 } from "../assets";
-
+import cfpc from "../../public/logo.webp";
 export const navLinks = [
   { id: "about", title: "À propos" },
   { id: "work", title: "Travaux" },
@@ -43,14 +43,14 @@ const services = [
 ];
 
 const technologies = [
+
   // { name: "HTML5", icon: html},
   // { name: "CSS3", icon: css },
   // { name: "JavaScript", icon: javascript },
   // { name: "TypeScript", icon: typescript },
   // { name: "ReactJS", icon: reactjs },
   // { name: "Redux Toolkit", icon: redux },
-  
-  // { name: "Tailwind CSS", icon: tailwind },
+  { name: "Tailwind CSS", icon: tailwind },
   { name: "Node.js", icon: nodejs },
   { name: "MongoDB", icon: mongodb },
   { name: "Three.js", icon: threejs },
@@ -63,7 +63,7 @@ const experiences = [
   {
     title: "Développeur ReactJS",
     company_name: "Ecole Supérieure La Canadienne",
-    icon: starbucks,
+    icon: cfpc,
     iconBg: "#383E56",
     date: "Mars 2020 - Avril 2021",
     technologies: ["ReactJS", "JavaScript", "CSS"],
@@ -78,7 +78,7 @@ const experiences = [
   {
     title: "Développeur JavaScript",
     company_name: "Ecole Supérieure La Canadienne",
-    icon: tesla,
+    icon: cfpc,
     iconBg: "#E6DEDD",
     date: "Janvier 2021 - Février 2022",
     technologies: ["JavaScript", "ReactJS", "Redux Toolkit"],
@@ -93,7 +93,7 @@ const experiences = [
   {
     title: "Développeur Web",
     company_name: "Ecole Supérieure La Canadienne",
-    icon: shopify,
+    icon: cfpc,
     iconBg: "#383E56",
     date: "Janvier 2022 - Janvier 2023",
     technologies: ["ReactJS", "TypeScript", "PHP"],
@@ -108,7 +108,7 @@ const experiences = [
   {
     title: "Développeur Front-End",
     company_name: "Ecole Supérieure La Canadienne",
-    icon: meta,
+    icon: cfpc,
     iconBg: "#E6DEDD",
     date: "Janvier 2023 - Présent",
     technologies: ["ReactJS", "TypeScript", "Three.js", "Redux Toolkit"],
@@ -121,6 +121,7 @@ const experiences = [
     ],
   },
 ];
+
 
 const testimonials = [
   {
