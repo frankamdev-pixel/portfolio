@@ -25,6 +25,7 @@ import {
   threejs,
 } from "../assets";
 import cfpc from "../../public/logo.webp";
+import laravel from "../../public/laravel2.png";
 export const navLinks = [
   { id: "about", title: "À propos" },
   { id: "work", title: "Travaux" },
@@ -56,7 +57,7 @@ const technologies = [
   { name: "Three.js", icon: threejs },
   { name: "Git", icon: git },
   { name: "Figma", icon: figma },
-  { name: "Docker", icon: docker },
+  { name: "Docker", icon: laravel },
 ];
 
 const experiences = [
