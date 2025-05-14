@@ -36,6 +36,10 @@ const services = [
   { title: "Développeur ReactJS", icon: mobile },
   { title: "Développeur Backend", icon: backend },
   { title: "Créateur de Contenu", icon: creator },
+  { title: "Intégration Web Responsive", icon: creator },
+  { title: "Montage Vidéo et Création De ,iniqture Youtube", icon: creator },
+  { title: "Création Visuels avec Photoshop et Illustrator", icon: creator },
+  { title: "Optimisation UI/UX", icon: creator },
 ];
 
 const technologies = [
@@ -147,7 +151,6 @@ const testimonials = [
 
 const projects = [
   {
-    
     name: "Projets GitHub",
     description:
       "Projets personnels et collaboratifs sur GitHub, démontrant mes compétences en développement web full-stack.",

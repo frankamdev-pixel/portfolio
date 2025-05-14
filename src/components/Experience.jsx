@@ -17,11 +17,11 @@ const ExperienceCard = ({ experience }) => {
     <VerticalTimelineElement
       contentStyle={{
         background: "#1d1836", 
-        color: "#fff", // Couleur du texte
+        color: "#fff", 
       }}
-      contentArrowStyle={{ borderRight: "7px solid  #232631" }} // Style de la flèche de l'élément
-      date={experience.date} // Date de l'expérience
-      iconStyle={{ background: experience.iconBg }} // Style de l'icône (couleur de fond)
+      contentArrowStyle={{ borderRight: "7px solid  #232631" }} 
+      date={experience.date} 
+      iconStyle={{ background: experience.iconBg }} 
       icon={ 
         <div className='flex justify-center items-center w-full h-full'>
           <img
@@ -33,9 +33,9 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3> {/* Titre de l'expérience */}
+        <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3> 
         <p className='text-secondary text-[16px] font-semibold' style={{ margin: 0 }}>
-          {experience.company_name} {/* Nom de l'entreprise */}
+          {experience.company_name} 
         </p>
       </div>
 
@@ -60,10 +60,10 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
-          Ce que j'ai accompli jusqu'à présent {/* Sous-titre */}
+          Ce que j'ai accompli jusqu'à présent 
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          Expérience Professionnelle. {/* Titre principal */}
+          Expérience Professionnelle. 
         </h2>
       </motion.div>
 

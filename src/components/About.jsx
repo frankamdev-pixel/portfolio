@@ -30,12 +30,12 @@ const ServiceCard = ({ index, title, icon }) => (
       >
         <img
           src={icon}
-          alt={title} // Remplace 'web-development' par le titre pour plus de flexibilité
+          alt={title} 
           className='w-16 h-16 object-contain'
         />
 
         <h3 className='text-white text-[20px] font-bold text-center'>
-          {title} {/* Affiche le titre du service */}
+          {title} 
         </h3>
       </div>
     </motion.div>
@@ -63,12 +63,12 @@ const About = () => {
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} /> // Affichage des services de manière dynamique
+          <ServiceCard key={service.title} index={index} {...service} /> 
         ))}
       </div>
     </>
   );
 };
 
-// SectionWrapper est un HOC qui ajoute un style ou une fonctionnalité supplémentaire à la section 'About'
+
 export default SectionWrapper(About, "about");
