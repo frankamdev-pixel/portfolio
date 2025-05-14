@@ -147,6 +147,7 @@ const testimonials = [
 
 const projects = [
   {
+    
     name: "Projets GitHub",
     description:
       "Projets personnels et collaboratifs sur GitHub, démontrant mes compétences en développement web full-stack.",
