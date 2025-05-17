@@ -18,7 +18,7 @@ function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#projets"
+                  href="#projects"
                   className="text-blue-200 hover:text-blue-400 transition-colors duration-300"
                 >
                   Projets
@@ -26,7 +26,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="#a-propos"
+                  href="#about"
                   className="text-blue-200 hover:text-blue-400 transition-colors duration-300"
                 >
                   À propos
