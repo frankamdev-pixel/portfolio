@@ -2,9 +2,9 @@ function Footer() {
   return (
     <footer className="bg-blue-900 text-white py-8">
       <div className="container mx-auto px-4">
-        {/* Conteneur principal avec grille pour structurer le contenu */}
+       
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
-          {/* Section 1 : Branding / Nom */}
+          
           <div>
             <h3 className="text-xl font-bold mb-4">Frank Kamgang</h3>
             <p className="text-blue-200">
@@ -12,7 +12,7 @@ function Footer() {
             </p>
           </div>
 
-          {/* Section 2 : Navigation */}
+          
           <div>
             <h3 className="text-lg font-semibold mb-4">Liens rapides</h3>
             <ul className="space-y-2">
@@ -43,7 +43,7 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Section 3 : Réseaux sociaux */}
+          
           <div>
             <h3 className="text-lg font-semibold mb-4">Suivez-moi</h3>
             <div className="flex justify-center md:justify-start space-x-4">
@@ -51,7 +51,7 @@ function Footer() {
                 href="https://linkedin.com/in/frank-kamgang"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-200 hover:text-blue-400 transition-colors duration-300"
+                className="text-blue-200 p-2 hover:text-blue-400 transition-colors duration-300"
               >
                 <svg
                   className="w-6 h-6"
@@ -63,7 +63,7 @@ function Footer() {
                 </svg>
               </a>
               <a
-                href="https://github.com/frank-kamgang"
+                href="https://github.com/Frankam487"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-200 hover:text-blue-400 transition-colors duration-300"
@@ -82,7 +82,7 @@ function Footer() {
         </div>
 
         
-        <div className="mt-8 border-t border-blue-800 pt-4 text-center text-blue-200">
+        <div className="mt-8 border-t border-blue-900 pt-4 text-center text-blue-200">
           <p>&copy; 2025 Frank Kamgang. Tous droits réservés.</p>
         </div>
       </div>

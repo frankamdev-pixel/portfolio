@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Footer, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
-
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import Footer from "./components/Footer.jsx";
 const App = () => {
   return (
     <>
