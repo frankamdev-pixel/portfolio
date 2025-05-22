@@ -65,7 +65,7 @@ function Footer() {
                 href="https://github.com/Frankam487"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-200 hover:text-blue-400 transition-colors duration-300"
+                className="text-blue-200 text-2xl hover:text-blue-400 transition-colors duration-300"
               >
                 <svg
                   className="w-6 h-6"
