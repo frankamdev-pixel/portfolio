@@ -2,7 +2,6 @@ function Footer() {
   return (
     <footer className="bg-blue-900 text-white py-8">
       <div className="container mx-auto px-4">
-       
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           
           <div>
@@ -18,7 +17,7 @@ function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#projects"
+                  href="#project"
                   className="text-blue-200 hover:text-blue-400 transition-colors duration-300"
                 >
                   Projets
@@ -51,7 +50,7 @@ function Footer() {
                 href="https://linkedin.com/in/frank-kamgang"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-200 p-2 hover:text-blue-400 transition-colors duration-300"
+                className="text-blue-200   hover:text-blue-400 transition-colors duration-300"
               >
                 <svg
                   className="w-6 h-6"
