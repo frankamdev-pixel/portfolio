@@ -27,7 +27,7 @@ const Hero = () => {
 
       <div className="absolute mt-4 bottom-0 flex items-center w-full h-[100% sm:h-[70%]">
         {/* <ComputersCanvas /> */}
-        <img src="/oki.jpg"  alt="Photoo" className="ml-[12rem] mt-[12rem] text-center text-cyan-200 h-1/2" />
+        <img src="/oki.jpg"  alt="Photoo" className="md:ml-[12rem] mt-[12rem] text-center text-cyan-200 h-1/2" />
        
       </div>
 
