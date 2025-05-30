@@ -4,10 +4,10 @@ import { IoLogoYoutube } from "react-icons/io5";
 
 function Footer() {
   return (
-    <footer className="bg-blue-900 text-white py-8">
+    <footer className="bg-cyan-900-900 text-white py-8">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
-          {/* Présentation */}
+          
           <div>
             <h3 className="text-xl font-bold mb-4">Frank Kamgang</h3>
             <p className="text-blue-200">
@@ -16,7 +16,7 @@ function Footer() {
             </p>
           </div>
 
-          {/* Liens rapides */}
+          
           <div>
             <h3 className="text-lg font-semibold mb-4">Liens rapides</h3>
             <ul className="space-y-2">
@@ -47,7 +47,7 @@ function Footer() {
             </ul>
           </div>
 
-          {/* Réseaux sociaux */}
+        
           <div>
             <h3 className="text-lg font-semibold mb-4">Suivez-moi</h3>
             <div className="flex justify-center md:justify-start space-x-4 text-2xl">
@@ -76,7 +76,7 @@ function Footer() {
                 <FaWhatsapp />
               </a>
               <a
-                href="https://youtube.com/ton_chaine"
+                href="https://youtube.com/@FrankamDev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-200 hover:text-blue-400 transition-colors duration-300"
