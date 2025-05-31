@@ -12,8 +12,10 @@ function Footer() {
               Frank Kamgang
             </h3>
             <p className="text-blue-200 mt-12">
-              Développeur Web & Graphiste passionné par React, Laravel et le
-              design.
+              Développeur Web & Graphiste{" "}
+              <span className="text-cyan-600 font-bold text-2xl">.</span> <br />{" "}
+              passionné par React, Laravel <br /> et le design{" "}
+              <span className="text-cyan-600 font-bold text-2xl">.</span>
             </p>
           </div>
 
