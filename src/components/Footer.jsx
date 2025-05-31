@@ -1,5 +1,6 @@
 import { FaWhatsapp, FaGithub } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
+import { FaTelegram } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io5";
 
 function Footer() {
@@ -60,7 +61,7 @@ function Footer() {
                 href="https://linkedin.com/in/frank-kamgang"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-200 hover:text-blue-400 transition-colors duration-300"
+                className="text-blue-400 hover:text-blue-400 transition-colors duration-300"
               >
                 <CiLinkedin />
               </a>
@@ -68,7 +69,7 @@ function Footer() {
                 href="https://github.com/Frankamdev"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-200 hover:text-blue-400 transition-colors duration-300"
+                className="text-black hover:text-blue-400 transition-colors duration-300"
               >
                 <FaGithub />
               </a>
@@ -76,7 +77,7 @@ function Footer() {
                 href="https://wa.me/+237690461830"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-200 hover:text-blue-400 transition-colors duration-300"
+                className="text-green-600 hover:text-blue-400 transition-colors duration-300"
               >
                 <FaWhatsapp />
               </a>
@@ -84,9 +85,17 @@ function Footer() {
                 href="https://youtube.com/@FrankamDev"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-200 hover:text-blue-400 transition-colors duration-300"
+                className="text-red-600 hover:text-blue-400 transition-colors duration-300"
               >
                 <IoLogoYoutube />
+              </a>
+              <a
+                href="https://t.meFrankam4"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-400 transition-colors duration-300"
+              >
+                <FaTelegram />
               </a>
             </div>
           </div>
