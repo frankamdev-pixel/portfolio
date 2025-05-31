@@ -8,19 +8,19 @@ function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
-            <h3 className="text-xl font-bold mb-4">Frank Kamgang</h3>
-            <p className="text-blue-200">
+            <h3 className="text-3xl font-bold  mb-4">Frank Kamgang</h3>
+            <p className="text-blue-200 mt-12">
               Développeur Web & Graphiste passionné par React, Laravel et le
               design.
             </p>
           </div>
 
           <div className=" flex flex-col">
-            <h3 className="text-lg font-semibold mb-4 text-center text-cyan-200">
+            <h3 className="text-3xl font-semibold mb-4 text-center text-cyan-200">
               Liens rapides
             </h3>
             <ul className="space-y-2">
-              <li className="text-left">
+              <li className="text-center">
                 <a
                   href="#project"
                   className="text-blue-200 hover:text-blue-400 transition-colors duration-300"
@@ -48,8 +48,8 @@ function Footer() {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">Suivez-moi</h3>
-            <div className="flex justify-center md:justify-start space-x-4 text-2xl">
+            <h3 className="text-3xl font-semibold mb-4">Suivez-moi</h3>
+            <div className="flex items-center md:mt-10 ml-4 justify-center md:justify-start space-x-4 text-2xl">
               <a
                 href="https://linkedin.com/in/frank-kamgang"
                 target="_blank"
