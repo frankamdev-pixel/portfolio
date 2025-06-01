@@ -48,7 +48,7 @@ const ProjectCard = ({
           <a
             href={source_code_link}
             target="_blank"
-            className="text-xl text-cyan-20 font-bold"
+            className="text-xl text-blue-400 font-bold"
           >
             Voir Plus
           </a>
