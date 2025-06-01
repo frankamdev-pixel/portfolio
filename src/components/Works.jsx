@@ -50,7 +50,7 @@ const ProjectCard = ({
             target="_blank"
             className="text-xl text-blue-400 font-bold"
           >
-            Voir Plus
+            Voir Plus <span className="">🤞🤞</span>
           </a>
         </div>
         <div className="mt-5">
