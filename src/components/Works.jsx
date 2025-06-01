@@ -48,9 +48,9 @@ const ProjectCard = ({
           <a
             href={source_code_link}
             target="_blank"
-            className="text-xl text-blue-400 underline font-bold"
+            className="text-xl text-blue-400 font-bold"
           >
-            Voir Plus <span className="">🤞🤞</span>
+            Voir Plus <span className="no-underline">🤞🤞</span>
           </a>
         </div>
         <div className="mt-5">
