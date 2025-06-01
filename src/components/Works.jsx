@@ -44,7 +44,15 @@ const ProjectCard = ({
             </div>
           </a>
         </div>
-
+        <div className="flex justify-center my-4">
+          <a
+            href={source_code_link}
+            target="_blank"
+            className="text-xl text-cyan-20 font-bold"
+          >
+            Voir Plus
+          </a>
+        </div>
         <div className="mt-5">
           <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
