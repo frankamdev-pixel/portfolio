@@ -6,7 +6,6 @@ import { services } from "../constants";
 import { SectionWrapper } from "../hoc"; 
 import { fadeIn, textVariant } from "../utils/motion"; 
 
-// Composant pour afficher chaque service
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt
     tiltMaxAngleX={45} 
