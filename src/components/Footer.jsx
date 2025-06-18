@@ -91,7 +91,7 @@ function Footer() {
               </a>
               <a
                 href="https://t.me/Frankam4"
-                target="_blank"
+               target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-400 transition-colors duration-300"
               >
