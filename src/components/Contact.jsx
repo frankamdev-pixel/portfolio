@@ -63,7 +63,7 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-      <div className="to-transparent text-white py-8 bg-white/10 backdrop-blur-[1px] border-t border-white/10 p-4 text-white">
+      <div className="to-transparent text-white py-8 bg-white/10 backdrop-blur-[1px] border-t border-white/10 p-4 text-white rounded-lg">
           <p className={styles.sectionSubText}>Contactez-nous</p>
           <h3 className={styles.sectionHeadText}>Contact.</h3>
           <div className="w-full max-w-[500px] mx-auto">
