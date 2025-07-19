@@ -185,7 +185,7 @@ const projects = [
       { name: "tailwindCSS", color: "green-text-gradient" },
       { name: "scss", color: "pink-text-gradient" },
     ],
-    image: "/omi.jpg",
+    image: "/pp.jpg",
     source_code_link: "https://my-portfolio-steel-three-91.vercel.app/",
   },
   {
@@ -213,7 +213,7 @@ const projects = [
     source_code_link: "https://compllete-to-do.vercel.app/",
   },
   {
-    name: "Projets JavaScript",
+    name: "Projets En Graphisme",
     description:
       "Projets personnels (Jeux applications, sites web, etc.) développé en javascript sur GitHub, démontrant mes compétences dans ce domaine.",
     tags: [
@@ -221,7 +221,7 @@ const projects = [
       { name: "typescript", color: "green-text-gradient" },
       { name: "javascript", color: "pink-text-gradient" },
     ],
-    image: "/js.png",
+    image: "/graphism.avif",
     source_code_link: "https://github.com/Frankam487",
   },
 ];
