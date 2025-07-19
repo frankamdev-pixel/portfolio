@@ -45,12 +45,12 @@ const services = [
 
 const technologies = [
 
-  // { name: "HTML5", icon: html},
-  // { name: "CSS3", icon: css },
-  // { name: "JavaScript", icon: javascript },
-  // { name: "TypeScript", icon: typescript },
-  // { name: "ReactJS", icon: reactjs },
-  // { name: "Redux Toolkit", icon: redux },
+  { name: "HTML5", icon: html},
+  { name: "CSS3", icon: css },
+  { name: "JavaScript", icon: javascript },
+  { name: "TypeScript", icon: typescript },
+  { name: "ReactJS", icon: reactjs },
+  { name: "Redux Toolkit", icon: redux },
   { name: "Tailwind CSS", icon: tailwind },
   { name: "Node.js", icon: nodejs },
   { name: "MongoDB", icon: mongodb },
@@ -175,6 +175,42 @@ const projects = [
     ],
     image: "/omi.jpg",
     source_code_link: "https://omiie.devfack.com",
+  },
+  {
+    name: "portfolio à vendre👌",
+    description:
+      "Application web pour l'achat de matériel électronique et la consultation des tarifs de vente et de maintenance.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwindCSS", color: "green-text-gradient" },
+      { name: "scss", color: "pink-text-gradient" },
+    ],
+    image: "/omi.jpg",
+    source_code_link: "https://my-portfolio-steel-three-91.vercel.app/",
+  },
+  {
+    name: "Omiie Technologies",
+    description:
+      "Application web pour l'achat de matériel électronique et la consultation des tarifs de vente et de maintenance.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwindCSS", color: "green-text-gradient" },
+      { name: "scss", color: "pink-text-gradient" },
+    ],
+    image: "/omi.jpg",
+    source_code_link: "https://omiie.devfack.com",
+  },
+  {
+    name: "ToDo Liste Complete👌",
+    description:
+      "Application web pour l'achat de matériel électronique et la consultation des tarifs de vente et de maintenance.",
+    tags: [
+      { name: "react", color: "blue-text-gradient" },
+      { name: "tailwindCSS", color: "green-text-gradient" },
+      { name: "scss", color: "pink-text-gradient" },
+    ],
+    image: "/vr.png",
+    source_code_link: "https://compllete-to-do.vercel.app/",
   },
   {
     name: "Projets JavaScript",
