@@ -5,7 +5,7 @@ import { IoLogoYoutube } from "react-icons/io5";
 
 function Footer() {
   return (
-    <footer className="bg-blue-950 to-transparent text-white py-8">
+    <footer className="to-transparent text-white py-8 bg-white/10 backdrop-blur-[1px] border-t border-white/10 p-4 text-white">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
           <div>
@@ -91,11 +91,10 @@ function Footer() {
               </a>
               <a
                 href="https://t.me/Frankam4"
-               target="_blank"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:text-blue-400 transition-colors duration-300"
               >
-                
                 <FaTelegram />
               </a>
             </div>

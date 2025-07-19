@@ -222,7 +222,7 @@ const projects = [
       { name: "javascript", color: "pink-text-gradient" },
     ],
     image: "/graphism.avif",
-    source_code_link: "https://github.com/Frankam487",
+    source_code_link: "",
   },
 ];
 
