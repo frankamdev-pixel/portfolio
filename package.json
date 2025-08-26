@@ -27,6 +27,7 @@
     "react-router-dom": "^6.8.1",
     "react-vertical-timeline-component": "^3.6.0",
     "react-window": "^1.8.11",
+    "sass": "^1.91.0",
     "three": "^0.149.0"
   },
   "devDependencies": {
