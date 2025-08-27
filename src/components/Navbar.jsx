@@ -44,8 +44,8 @@ const Navbar = () => {
         >
           <img src="./banner.jpg" alt='logo' className='w-9 h-9 rounded-full object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Frank &nbsp;
-            <span className='sm:block hidden'> | Javascript Maitrise</span>
+            FrankamDev &nbsp;
+            <span className='sm:block hidden'> | EsCaLearn</span>
           </p>
         </Link>
 
