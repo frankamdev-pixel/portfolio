@@ -4,7 +4,7 @@ import { FaTelegram } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io5";
 
 function Footer() {
-  
+
   return (
     <footer className="to-transparent py-8 bg-white/10 backdrop-blur-[1px] border-t border-white/10 p-4 text-white">
       <div className="container mx-auto px-4">
