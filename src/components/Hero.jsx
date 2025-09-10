@@ -72,7 +72,8 @@ const Hero = () => {
 
         <div className="flex-1">
           <h1 className={`${styles.heroHeadText} text-white leading-tight`}>
-            Hey, je suis <span className="text-[#915EFF]">Frank Kamgang</span>
+            Hey, je suis <br />{" "}
+            <span className="text-[#915EFF]">Frank Kamgang</span>
           </h1>
           <p className={`${styles.heroSubText} mt-4 text-white-100`}>
             Je développe des visuels 3D, des interfaces utilisateur
@@ -87,7 +88,8 @@ const Hero = () => {
         <img
           src="/oki.jpg"
           alt="Photo"
-          className="max-w-full h-auto sm:h-[300px] md:h-[400px] lg:h-[500px] object-cover rounded-xl"
+          // className="w-1/5 h-1/2 -mt-[5rem] -ml-[55rem] object-cover rounded-xl"
+          className="sm:h-[300px] md:h-[400px] lg:h-[500px] object-cover rounded-xl"
         />
       </div>
 
