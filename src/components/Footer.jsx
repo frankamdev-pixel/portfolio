@@ -7,30 +7,30 @@ function Footer() {
 
   return (
     <>
-    <footer className="to-transparent py-8 bg-white/10 backdrop-blur-[1px] border-t border-white/10 p-4 text-white">
+    <footer className="py-8 bg-white/10 backdrop-blur-[1px] border-t border-white/10 text-white">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 text-center md:text-left">
           <div>
-            <h3 className="text-3xl font-bold  mb-4 text-cyan-200">
+            <h3 className="text-2xl sm:text-3xl font-bold mb-4 text-cyan-200">
               Frank Kamgang
             </h3>
-            <p className="text-blue-200 mt-8">
+            <p className="text-blue-200 mt-4 sm:mt-8 text-sm sm:text-base">
               Développeur Web & Graphiste{" "}
-              <span className="text-cyan-600 font-bold text-2xl">.</span> <br />{" "}
+              <span className="text-cyan-600 font-bold text-xl sm:text-2xl">.</span> <br />{" "}
               passionné par React, Laravel <br /> et le design{" "}
-              <span className="text-cyan-600 font-bold text-2xl">.</span>
+              <span className="text-cyan-600 font-bold text-xl sm:text-2xl">.</span>
             </p>
           </div>
 
-          <div className=" flex flex-col">
-            <h3 className="text-3xl font-semibold mb-4 text-center text-cyan-200">
+          <div className="flex flex-col">
+            <h3 className="text-2xl sm:text-3xl font-semibold mb-4 text-center text-cyan-200">
               Liens rapides
             </h3>
             <ul className="space-y-2">
               <li className="text-center">
                 <a
                   href="#project"
-                  className="text-blue-200 hover:text-blue-400 transition-colors duration-300"
+                  className="text-blue-200 hover:text-blue-400 transition-colors duration-300 text-sm sm:text-base"
                 >
                   Projets
                 </a>
@@ -38,7 +38,7 @@ function Footer() {
               <li className="text-center">
                 <a
                   href="#about"
-                  className="text-blue-200 text-center hover:text-blue-400 transition-colors duration-300"
+                  className="text-blue-200 hover:text-blue-400 transition-colors duration-300 text-sm sm:text-base"
                 >
                   À propos
                 </a>
@@ -46,7 +46,7 @@ function Footer() {
               <li className="text-center">
                 <a
                   href="#contact"
-                  className="text-blue-200 text-center hover:text-blue-400 transition-colors duration-300"
+                  className="text-blue-200 hover:text-blue-400 transition-colors duration-300 text-sm sm:text-base"
                 >
                   Contact
                 </a>
@@ -55,10 +55,10 @@ function Footer() {
           </div>
 
           <div>
-            <h3 className="text-3xl text-cyan-200 font-semibold mb-4">
+            <h3 className="text-2xl sm:text-3xl text-cyan-200 font-semibold mb-4 text-center md:text-left">
               Suivez-moi
             </h3>
-            <div className="flex items-center md:mt-10 ml-4 justify-center md:justify-start space-x-4 text-2xl">
+            <div className="flex items-center md:mt-6 lg:mt-10 justify-center md:justify-start space-x-4 text-xl sm:text-2xl">
               <a
                 href="https://linkedin.com/in/frank-kamgang"
                 target="_blank"

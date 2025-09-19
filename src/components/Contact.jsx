@@ -62,56 +62,56 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+        className="flex-[0.75] bg-black-100 p-4 sm:p-8 rounded-2xl"
       >
-      <div className="to-transparent text-white py-8 bg-white/10 backdrop-blur-[1px] border-t border-white/10 p-4 text-white rounded-lg">
+        <div className="bg-white/10 backdrop-blur-[1px] border border-white/10 p-4 sm:p-6 text-white rounded-lg">
           <p className={styles.sectionSubText}>Contactez-nous</p>
           <h3 className={styles.sectionHeadText}>Contact.</h3>
           <div className="w-full max-w-[500px] mx-auto">
             <form
               ref={formRef}
               onSubmit={handleSubmit}
-              className="mt-12 flex flex-col gap-8"
+              className="mt-8 sm:mt-12 flex flex-col gap-6 sm:gap-8"
             >
               <label className="flex flex-col">
-                <span className="text-white font-medium mb-4">Votre Nom</span>
+                <span className="text-white font-medium mb-2 sm:mb-4">Votre Nom</span>
                 <input
                   type="text"
                   name="name"
                   value={form.name}
                   onChange={handleChange}
                   placeholder="Quel est votre prénom ?"
-                  className="bg-tertiary py-4 px-6 placeholder:text-secondary w-full text-white  outline-none border-none font-medium"
+                  className="bg-tertiary py-3 sm:py-4 px-4 sm:px-6 placeholder:text-secondary w-full text-white outline-none border-none font-medium rounded-lg"
                 />
               </label>
               <label className="flex flex-col">
-                <span className="text-white font-medium mb-4">Votre email</span>
+                <span className="text-white font-medium mb-2 sm:mb-4">Votre email</span>
                 <input
                   type="email"
                   name="email"
                   value={form.email}
                   onChange={handleChange}
                   placeholder="Quel est votre adresse email ?"
-                  className="bg-tertiary py-4 px-6 placeholder:text-secondary w-full text-white outline-none border-none font-medium"
+                  className="bg-tertiary py-3 sm:py-4 px-4 sm:px-6 placeholder:text-secondary w-full text-white outline-none border-none font-medium rounded-lg"
                 />
               </label>
               <label className="flex flex-col">
-                <span className="text-white font-medium mb-4">
+                <span className="text-white font-medium mb-2 sm:mb-4">
                   Votre Message
                 </span>
                 <textarea
                   style={{ resize: "none" }}
-                  rows={7}
+                  rows={5}
                   name="message"
                   value={form.message}
                   onChange={handleChange}
                   placeholder="Que souhaitez-vous dire ?"
-                  className="bg-tertiary w-full py-4 px-6 shadow-md placeholder:text-secondary text-white outline-none border-none font-medium"
+                  className="bg-tertiary w-full py-3 sm:py-4 px-4 sm:px-6 shadow-md placeholder:text-secondary text-white outline-none border-none font-medium rounded-lg"
                 />
               </label>
               <button
                 type="submit"
-                className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+                className="bg-tertiary py-3 px-6 sm:px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary hover:bg-opacity-80 transition-all duration-300"
               >
                 {loading ? "Envoi..." : "Envoyer"}
               </button>

@@ -63,7 +63,7 @@ const Hero = () => {
     <section className="relative w-full min-h-screen mx-auto overflow-hidden flex flex-col justify-between">
       {/* Texte */}
       <div
-        className={`w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex flex-row items-start gap-5 mt-24`}
+        className={`w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex flex-row items-start gap-3 sm:gap-5 mt-20 sm:mt-24`}
       >
         <div className="flex flex-col justify-center items-center mt-2">
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
@@ -72,10 +72,10 @@ const Hero = () => {
 
         <div className="flex-1">
           <h1 className={`${styles.heroHeadText} text-white leading-tight`}>
-            Hey, je suis <br />{" "}
+            Hey, je suis <br className="sm:hidden" />{" "}
             <span className="text-[#915EFF]">Frank Kamgang</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-4 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-3 sm:mt-4 text-white-100`}>
             Je développe des visuels 3D, des interfaces utilisateur
             <br className="sm:block hidden" /> et des applications web
           </p>
@@ -88,8 +88,7 @@ const Hero = () => {
         <img
           src="/oki.jpg"
           alt="Photo"
-          // className="w-1/5 h-1/2 -mt-[5rem] -ml-[55rem] object-cover rounded-xl"
-          className="sm:h-[300px] md:h-[400px] lg:h-[500px] object-cover rounded-xl"
+          className="w-full max-w-[280px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[500px] h-auto object-cover rounded-xl shadow-2xl"
         />
       </div>
 

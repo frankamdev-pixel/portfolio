@@ -24,8 +24,8 @@ import {
   // tripguide,
   threejs,
 } from "../assets";
-import cfpc from "../../public/logo.webp";
-import laravel from "../../public/laravel2.png";
+import cfpc from "/logo.webp";
+import laravel from "/laravel2.png";
 export const navLinks = [
   { id: "about", title: "À propos" },
   { id: "work", title: "Travaux" },
