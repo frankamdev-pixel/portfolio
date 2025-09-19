@@ -114,6 +114,16 @@
   -webkit-text-fill-color: transparent;
 }
 
+.card-img_hover {
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card-img_hover:hover {
+  opacity: 1;
+}
+
 
 .canvas-loader {
   font-size: 10px;
