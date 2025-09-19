@@ -17,15 +17,15 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div>
       <Tilt
         tiltMaxAngleX={45}
         tiltMaxAngleY={45}
         scale={1}
         transitionSpeed={450}
-        className="bg-tertiary p-4 sm:p-5 rounded-2xl w-full max-w-[360px]"
+        className="bg-tertiary p-3 sm:p-4 md:p-5 rounded-2xl w-full max-w-[320px] sm:max-w-[360px] mx-2 sm:mx-0"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[200px] sm:h-[230px]">
           <a href={source_code_link} target="_blank" rel="noreferrer">
             <img
               src={image}
@@ -44,63 +44,73 @@ const ProjectCard = ({
             </div>
           </a>
         </div>
-        <div className="flex justify-center my-4">
+        <div className="flex justify-center my-3 sm:my-4">
           <a
             href={source_code_link}
             target="_blank"
-            className="text-xl text-blue-400 font-bold"
+            className="text-lg sm:text-xl text-blue-400 font-bold hover:text-blue-300 transition-colors"
           >
             Voir Plus <span className="no-underline">🤞🤞</span>
           </a>
         </div>
-        <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+        <div className="mt-3 sm:mt-5">
+          <h3 className="text-white font-bold text-[20px] sm:text-[24px] text-center">
+            {name}
+          </h3>
+          <p className="mt-2 text-secondary text-[13px] sm:text-[14px] text-center leading-relaxed">
+            {description}
+          </p>
         </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="mt-3 sm:mt-4 flex flex-wrap gap-1 sm:gap-2 justify-center">
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
+              className={`text-[12px] sm:text-[14px] ${tag.color}`}
             >
               #{tag.name}
             </p>
           ))}
         </div>
       </Tilt>
-    </motion.div>
+    </div>
   );
 };
 
 const Works = () => {
+  console.log("Works component rendering, projects:", projects.length);
+  
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div>
         <p className={`${styles.sectionSubText} `}>Mon travail</p>
         <h2 className={`${styles.sectionHeadText}`}>Projets.</h2>
-      </motion.div>
-
-      <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
-          Les projets suivants montrent mes compétences et mon expérience à
-          travers des exemples concrets de mon travail. Chaque projet est brièvement
-          décrit avec des liens vers les dépôts de code et les démos en ligne. Cela
-          reflète ma capacité à résoudre des problèmes complexes, à travailler avec
-          différentes technologies et à gérer des projets efficacement.
-        </motion.p>
       </div>
 
-      <div className='mt-16 sm:mt-20 flex flex-wrap gap-4 sm:gap-7 justify-center'>
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
+      <div className="w-full flex justify-center">
+        <p className="mt-3 text-secondary text-[15px] sm:text-[17px] max-w-3xl leading-[28px] sm:leading-[30px] text-center px-4">
+          Les projets suivants montrent mes compétences et mon expérience à
+          travers des exemples concrets de mon travail. Chaque projet est
+          brièvement décrit avec des liens vers les dépôts de code et les démos
+          en ligne. Cela reflète ma capacité à résoudre des problèmes complexes,
+          à travailler avec différentes technologies et à gérer des projets
+          efficacement.
+        </p>
+      </div>
+
+      <div className="mt-16 sm:mt-20 flex flex-wrap gap-4 sm:gap-7 justify-center">
+        {projects && projects.length > 0 ? (
+          projects.map((project, index) => (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))
+        ) : (
+          <div className="text-white text-center">
+            <p>Aucun projet trouvé</p>
+          </div>
+        )}
       </div>
     </>
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "work");
