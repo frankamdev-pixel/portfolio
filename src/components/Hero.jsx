@@ -61,7 +61,6 @@ import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   return (
     <section className="relative w-full min-h-screen mx-auto overflow-hidden flex flex-col justify-between">
-      {/* Texte */}
       <div
         className={`w-full max-w-7xl mx-auto px-4 sm:px-6 md:px-8 flex flex-row items-start gap-3 sm:gap-5 mt-20 sm:mt-24`}
       >
@@ -72,7 +71,7 @@ const Hero = () => {
 
         <div className="flex-1">
           <h1 className={`${styles.heroHeadText} text-white leading-tight`}>
-            Hey, je suis <br className="sm:hidden" />{" "}
+            Hey, je suis <br />{" "}
             <span className="text-[#915EFF]">Frank Kamgang</span>
           </h1>
           <p className={`${styles.heroSubText} mt-3 sm:mt-4 text-white-100`}>
@@ -81,10 +80,20 @@ const Hero = () => {
           </p>
         </div>
       </div>
+      <div className="w-full flex justify-center mt-10">
+        <a
+          href="./assets/cv.pdf"
+          download
+          className="text-cyan-300 text-2xl font-bold"
+        >
+          <span className="font-boder">Télécharger</span> le CV
+          <img src="./assets/downloadd.png" alt="download" className="ml-2" />
+        </a>
+      </div>
 
       {/* Image */}
       <div className="w-full flex justify-center mt-10">
-        {/* <ComputersCanvas /> */}
+        <ComputersCanvas />
         <img
           src="/oki.jpg"
           alt="Photo"

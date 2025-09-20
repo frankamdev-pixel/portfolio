@@ -17,8 +17,6 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <div className="container">
-
     <div className="bg-tertiary p-3 sm:p-4 md:p-5 rounded-2xl w-full max-w-[320px] sm:max-w-[360px] mx-2 sm:mx-0">
       <div className="relative w-full h-[200px] sm:h-[230px]">
         <a href={source_code_link} target="_blank" rel="noreferrer">
@@ -68,11 +66,9 @@ const ProjectCard = ({
         ))}
       </div>
     </div>
-    </div>
   );
 };
 const Works = () => {
-
   return (
     <div className="min-h-screen">
       <div>
@@ -95,6 +91,7 @@ const Works = () => {
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
+        
       </div>
     </div>
   );
