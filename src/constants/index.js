@@ -44,8 +44,7 @@ const services = [
 ];
 
 const technologies = [
-
-  { name: "HTML5", icon: html},
+  { name: "HTML5", icon: html },
   { name: "CSS3", icon: css },
   { name: "JavaScript", icon: javascript },
   { name: "TypeScript", icon: typescript },
@@ -122,7 +121,6 @@ const experiences = [
     ],
   },
 ];
-
 
 const testimonials = [
   {
