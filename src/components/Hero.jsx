@@ -86,14 +86,14 @@ const Hero = () => {
           download
           className="text-cyan-300 text-2xl font-bold"
         >
-          <span className="font-boder">Télécharger</span> le CV
-          <img src="./assets/downloadd.png" alt="download" className="ml-2" />
+          <span className="font-bold">Télécharger</span> le CV
+          <img src="./assets/downloadd.png" alt="download" className="ml-2 w-4 h-4" />
         </a>
       </div>
 
       {/* Image */}
       <div className="w-full flex justify-center mt-10">
-        <ComputersCanvas />
+        {/* <ComputersCanvas /> */}
         <img
           src="/oki.jpg"
           alt="Photo"
