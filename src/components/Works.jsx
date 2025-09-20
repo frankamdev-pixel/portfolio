@@ -105,5 +105,7 @@
 import React from "react";
 
 export default function Works() {
-  return <div>Works</div>;
+  return <div>
+    <h1>Work</h1>
+  </div>;
 }
