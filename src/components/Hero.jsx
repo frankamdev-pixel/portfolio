@@ -33,6 +33,7 @@ const Hero = () => {
           alt="Photoo"
           className="md:ml-[12rem] mt-[12rem] text-center text-cyan-200 h-1/2"
         />
+        
       </div>
       <div className="absolute xs:bottom-8 bottom-24 w-full flex justify-center items-center">
         <a href="#about" aria-label="Scroll to About section">
