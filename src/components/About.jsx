@@ -1,33 +1,34 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
-import { styles } from "../styles"; 
+import { styles } from "../styles";
 import { services } from "../constants";
-import { SectionWrapper } from "../hoc"; 
-import { fadeIn, textVariant } from "../utils/motion"; 
+import { SectionWrapper } from "../hoc";
+import { fadeIn, textVariant } from "../utils/motion";
 
-const ServiceCard = ({ index, title, icon }) => (
-  <Tilt
-    tiltMaxAngleX={45}
-    tiltMaxAngleY={45}
-    scale={1}
-    transitionSpeed={450}
-    className="xs:w-[250px] w-full"
-  >
-    <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+const ServiceCard = ({ index, title, icon }) => {
+  const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+
+  return (
+    <Tilt
+      tiltMaxAngleX={isMobile ? 0 : 20}
+      tiltMaxAngleY={isMobile ? 0 : 20}
+      scale={1.05}
+      transitionSpeed={400}
+      className="xs:w-[250px] w-full"
     >
-      <div className="bg-tertiary rounded-[20px] py-5 px-6 sm:px-12 min-h-[280px] flex justify-evenly items-center flex-col">
-        <img src={icon} alt={title} className="w-16 h-16 object-contain" />
-
-        <h3 className="text-white text-[20px] font-bold text-center">
-          {title}
-        </h3>
-      </div>
-    </motion.div>
-  </Tilt>
-);
+      <motion.div
+        variants={isMobile ? { initial: { opacity: 0 }, animate: { opacity: 1 } } : fadeIn("right", "spring", index * 0.3, 0.6)}
+        className="w-full bg-gradient-to-r from-cyan-500 to-pink-500 p-[1px] rounded-xl shadow-lg"
+      >
+        <div className="bg-[#151030] backdrop-blur-md rounded-xl py-6 px-6 flex flex-col items-center justify-center min-h-[280px] hover:scale-105 transition-transform duration-300">
+          <img src={icon} alt={title} className="w-14 h-14 mb-4 object-contain" />
+          <h3 className="text-white text-lg font-semibold text-center">{title}</h3>
+        </div>
+      </motion.div>
+    </Tilt>
+  );
+};
 
 const About = () => {
   return (
@@ -41,24 +42,18 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[16px] max-w-3xl leading-[28px]"
       >
-        Je suis un développeur logiciel qualifié avec de l'expérience en
-        TypeScript et JavaScript, ainsi qu'une expertise dans des frameworks
-        comme React, Node.js et Three.js. Je suis un apprenant rapide et je
-        collabore étroitement avec les clients pour créer des solutions
-        efficaces, évolutives et conviviales qui résolvent des problèmes réels.
-        Travaillons ensemble pour concrétiser vos idées !
+        Développeur passionné, je crée des applications web fluides et modernes avec React, Node.js et Three.js. Mon objectif : des expériences rapides, efficaces et agréables pour tous les utilisateurs, même sur mobile.
       </motion.p>
 
-      <div className="mt-16 sm:mt-20 flex flex-wrap gap-6 sm:gap-10 justify-center">
-        {services.map((service, index) => (
+      <div className="mt-12 flex flex-wrap gap-6 justify-center">
+        {services.slice(0, 6).map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
     </>
   );
 };
-
 
 export default SectionWrapper(About, "about");
