@@ -31,7 +31,7 @@ const Hero = () => {
         <img
           src="/okii.png"
           alt="Photoo"
-          className="md:ml-[12rem] mt-[12rem] text-center text-cyan-200 h-1/2"
+          className="md:ml-[12rem] mt-[12rem] text-center text-cyan-200 h-[20%] w-[40%] rounded-full"
         />
         
       </div>
