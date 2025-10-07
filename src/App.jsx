@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
-// import Footer from "./components/Footer.jsx";
+import Footer from "./components/Footer.jsx";
 import ScrollProgressBar from "./ScrollProgressBar.jsx";
 
 // const Works = lazy(() => import("./components/Works.jsx")); 
