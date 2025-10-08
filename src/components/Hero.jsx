@@ -22,18 +22,10 @@ const Hero = () => {
             <br className="sm:block hidden" /> et des applications web
           </p>
         </div>
-
-        
       </div>
 
       <div className="absolute bottom-0  flex items-center w-full h-[100%] justify-center sm:h-[70%]">
-        <ComputersCanvas className="top-0 absolute"/>
-        {/* <img
-          src="/okii.png"
-          alt="Photoo"
-          className="md:ml-[12rem] mt-[12rem] t-4 text-center text-cyan-200 h-[20%] w-[40%] rounded-full"
-        /> */}
-        
+        {/* <ComputersCanvas /> */}
       </div>
       <div className="absolute xs:bottom-8 bottom-24 w-full flex justify-center items-center">
         <a href="#about" aria-label="Scroll to About section">
@@ -83,16 +75,16 @@ export default Hero;
 //         </div>
 //       </div>
 
-      // <div className="w-full flex justify-center mt-10">
-      //   <a
-      //     href="./assets/cv.pdf"
-      //     download
-      //     className="text-cyan-300 text-2xl font-bold"
-      //   >
-      //     <span className="font-boder">Télécharger</span> le CV
-      //     <img src="./assets/downloadd.png" alt="download" className="ml-2" />
-      //   </a>
-      // </div>
+// <div className="w-full flex justify-center mt-10">
+//   <a
+//     href="./assets/cv.pdf"
+//     download
+//     className="text-cyan-300 text-2xl font-bold"
+//   >
+//     <span className="font-boder">Télécharger</span> le CV
+//     <img src="./assets/downloadd.png" alt="download" className="ml-2" />
+//   </a>
+// </div>
 
 //       {/* Image */}
 //       <div className="w-full flex justify-center mt-10">
