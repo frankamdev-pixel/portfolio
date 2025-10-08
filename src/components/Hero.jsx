@@ -26,13 +26,13 @@ const Hero = () => {
         
       </div>
 
-      <div className="absolute mt-4 bottom-0 flex items-center w-full h-[100% sm:h-[70%]">
-        {/* <ComputersCanvas /> */}
-        <img
+      <div className="absolute bottom-0  flex items-center w-full h-[100%] justify-center sm:h-[70%]">
+        <ComputersCanvas className="top-0 absolute"/>
+        {/* <img
           src="/okii.png"
           alt="Photoo"
-          className="md:ml-[12rem] mt-[12rem] text-center text-cyan-200 h-[20%] w-[40%] rounded-full"
-        />
+          className="md:ml-[12rem] mt-[12rem] t-4 text-center text-cyan-200 h-[20%] w-[40%] rounded-full"
+        /> */}
         
       </div>
       <div className="absolute xs:bottom-8 bottom-24 w-full flex justify-center items-center">
