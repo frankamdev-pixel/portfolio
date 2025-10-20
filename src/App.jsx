@@ -5,6 +5,7 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 import Footer from "./components/Footer.jsx";
 import ScrollProgressBar from "./ScrollProgressBar.jsx";
 import CercleRotate from "./components/CercleRotate.jsx";
+import DownloadCVButton from "./components/DownloadCVButton.jsx";
 
 // const Works = lazy(() => import("./components/Works.jsx")); 
 const App = () => {
@@ -13,20 +14,24 @@ const App = () => {
       <BrowserRouter>
         <div className="relative z-0 bg-primary">
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-          <ScrollProgressBar />
+            <ScrollProgressBar />
             <Navbar />
             <Hero />
+            <div className="flex justify-center items-center">
+
+              <DownloadCVButton />
+            </div>
           </div>
           <About />
           <Experience />
-          <Tech />
+          {/* <Tech /> */}
+          <CercleRotate />
           <Works />
           <Feedbacks />
 
           <div className="relative z-0">
             <Contact />
             <StarsCanvas />
-            <CercleRotate />
             <Footer />
           </div>
         </div>
