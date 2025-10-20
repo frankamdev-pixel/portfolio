@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 import Footer from "./components/Footer.jsx";
 import ScrollProgressBar from "./ScrollProgressBar.jsx";
+import CercleRotate from "./components/CercleRotate.jsx";
 
 // const Works = lazy(() => import("./components/Works.jsx")); 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
           <div className="relative z-0">
             <Contact />
             <StarsCanvas />
+            <CercleRotate />
             <Footer />
           </div>
         </div>
