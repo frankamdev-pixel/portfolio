@@ -6,9 +6,30 @@ import Footer from "./components/Footer.jsx";
 import ScrollProgressBar from "./ScrollProgressBar.jsx";
 import CercleRotate from "./components/CercleRotate.jsx";
 import DownloadCVButton from "./components/DownloadCVButton.jsx";
+import { useState } from "react";
 
 // const Works = lazy(() => import("./components/Works.jsx")); 
 const App = () => {
+  const [datas, setDatas] =useState([
+    {
+      id: 1,
+      name: 'frank',
+      isAmin: false,
+      country: "USA"
+    },
+    {
+      id: 2,
+      name: 'franko',
+      isAmin: true,
+      country: "Canada"
+    },
+    {
+      id: 3,
+      name: 'Francine',
+      isAmin: false,
+      country: "France"
+    },
+  ])
   return (
     <>
       <BrowserRouter>
